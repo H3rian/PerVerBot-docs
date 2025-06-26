@@ -24,4 +24,4 @@ Here are the main commands you can use:
 - `/config`: (For server admins) Configure bot settings for the server, like setting up a specific channel for game activity notifications, choosing the bot's personality or custom api keys.
 
 ## Privacy
-Your privacy is important. For more information, please read our [Privacy Policy](docs/PRIVACY_POLICY_EN.md) and [Terms of Service](docs/TERMS_OF_SERVICE_EN.md).
+For more information, please read our [Privacy Policy](PRIVACY_POLICY_EN.md) and [Terms of Service](TERMS_OF_SERVICE_EN.md).
