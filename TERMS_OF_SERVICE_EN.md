@@ -32,16 +32,13 @@ All rights, titles, and interests in and to Perverbot, including source code, lo
 ## 8. Feedback
 Any feedback you provide can be used freely to improve the Service without any obligation for compensation.
 
-## 9. Indemnification
-You agree to indemnify and hold the developers of Perverbot harmless from any claim or demand arising from your improper use of the Service.
-
-## 10. Limitation of Liability
+## 9. Limitation of Liability
 The Service is provided "as is" without warranties of any kind. To the maximum extent permitted by law, we shall not be liable for any direct, indirect, incidental, consequential, or punitive damages arising from the use or inability to use the Service.
 
-## 11. Third-Party Services
+## 10. Third-Party Services
 Perverbot integrates with external services (e.g., Google Gemini, HeyGen, Riot Games API, Steam). We are not affiliated with or endorsed by these entities. Your use of these services is subject to their respective terms.
 
-### 11.1 API Key Management
+### 11 API Key Management
 The Service uses API keys for external services to function.
 
 *   **Google Gemini**: For text content generation, the Service uses a default API key. However, you have the option to provide your own personal API key to replace the default one.
