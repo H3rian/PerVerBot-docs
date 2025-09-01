@@ -12,6 +12,8 @@ Welcome to PerVerBot! A gaming Discord bot that uses Google Gemini to generate s
 - **Custom Profiles**: Create your own user profile to enable match analysis and other personalized features.
 - **CS2 Statistics Chat**: In the dedicated stats channel (if configured by admins), you can chat with the bot about your CS2 performance and get detailed statistics.
 
+For cs2 and lol analysis you need a profile, see the profile commands details below
+
 ## Commands
 
 Here are the main commands you can use:
@@ -19,8 +21,12 @@ Here are the main commands you can use:
 ### General Commands
 - `/help`: Shows a list of available commands.
 - `/profile`: Create and manage your user profile. A profile is necessary to use features like CS2 and League of Legends match analysis.
+      - <img width="507" height="687" alt="image" src="https://github.com/user-attachments/assets/6904b839-ea73-40ae-990b-b958e3536155" />
+
 - `@PerVerBot <message>`: Chat directly with the bot. Ask it anything!
 - `/cs2analysis`: Trigger CS2 analysis view for your recent matches (requires CS2 profile setup).
+
+
 ### Admin Commands
 - `/config`: (For server admins) Configure bot settings for the server, like setting up a specific channel for game activity notifications, choosing the bot's personality or custom api keys.
 
