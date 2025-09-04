@@ -28,7 +28,7 @@ Welcome to PerVerBot! A gaming Discord bot that uses Google Gemini to generate s
 
 ### General Commands
 - `/help`: Shows a list of available commands.
-- `/profile`: Create and manage your user profile. A profile is necessary to use features like CS2 and League of Legends match analysis.
+- `/profile`: Create and manage your user profile. A profile is necessary to use features like CS2 and League of Legends match analysis. You have to go through both profile sections to create it, even if you leave some field empty.
 
 <img width="503" height="692" alt="Profile command example" src="https://github.com/user-attachments/assets/5d2aa1d7-149f-484f-a89b-93c22392bfe8">
 
