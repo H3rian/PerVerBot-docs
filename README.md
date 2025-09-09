@@ -21,6 +21,7 @@ Welcome to PerVerBot! A gaming Discord bot that uses Google Gemini to generate s
   - For **League of Legends**, simply add your Riot ID to your profile to get your recent matches analyzed.
 - **Custom Profiles**: Create your own user profile to enable match analysis and other personalized features.
 - **CS2 Statistics Chat**: In the dedicated stats channel (if configured by admins), you can chat with the bot about your CS2 performance and get detailed statistics.
+- **CS2 Detailed Dinamic Report**: At the end of the analysis you can ask for a deep report of the match with a **2d demo viewer**, allstar.gg squad hightlights, detailed stats of the match and historical leetify stats for every player and a round by round comment
 
 > **Note**: For CS2 and LoL analysis you need a profile. See the [Profile Setup](#profile-setup) section below.
 
