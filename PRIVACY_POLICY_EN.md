@@ -13,7 +13,6 @@ Perverbot ("we," "our," or the "Service") is a bot that provides match analysis,
 | User Profiles | Game nicknames, Steam ID, Rank, Bio | To personalize analyses and responses |
 | Replay Files | CS2 demo, LoL replay | Processed locally to extract match data (not shared with third parties) |
 | Parsed Match Data | Kills, deaths, objectives, tactical events | To generate commentary and statistics |
-| API Keys (optional) | Google Gemini API Key | To enable advanced features at the user's request |
 | Generated Content | Audio/podcasts created by the bot | To provide the content requested by the user |
 
 We **only** collect data that the user voluntarily decides to provide.
