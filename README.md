@@ -13,13 +13,11 @@ Welcome to PerVerBot! A gaming Discord bot that uses various AI models to genera
     - [Language](#language)
     - [Word Limits](#word-limits)
     - [Current Status](#current-status)
-    - [Clear History](#clear-history-and-clear-stats-history)
 - [Profile Setup](#profile-setup)
   - [Description](#description)
   - [Personality (DM)](#personality-dm)
   - [Language (DM)](#language-dm)
   - [Game Related Settings](#game-related-settings)
-  - [Clear DM History](#clear-dm-history)
   - [Delete Profile](#delete-profile)
 - [Privacy](#privacy)
 
@@ -77,9 +75,6 @@ You can set word limits for PerVerBot's answers.
 #### Current Status
 Displays the current server configuration.
 
-#### Clear History and Clear Stats History
-You can delete the server chat context (for normal interactions and stats interactions). When you do this, the next message will be treated as the first interaction with the bot. Use this if you face strange behavior, repetitive answers, or if you change personality.
-
 ## Profile Setup
 
 Here you can set up your profile:
@@ -132,8 +127,6 @@ For BF6 you just need your EA ID:
 
 <img width="475" height="311" alt="image" src="https://github.com/user-attachments/assets/b4c8a390-0fc3-46ab-a150-fb2aa22cbbf9" />
 
-### Clear DM History
-You can delete your DM chat history with PerVerBot. When you do this, the next message will be the first interaction the bot has with you. Use this if you face strange behavior, repetitive answers, or if you change personality.
 
 ### Delete Profile
 Permanently delete your profile and data.
