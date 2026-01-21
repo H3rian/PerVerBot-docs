@@ -1,6 +1,6 @@
 # PerVerBot
 
-Welcome to PerVerBot! A gaming Discord bot that uses Google Gemini to generate sarcastic and witty responses based on the chosen personality. The bot tracks user games, analyzes and comments your CS2 and LoL matches and offers custom profile features.
+Welcome to PerVerBot! A gaming Discord bot that uses various AI models to generate contents and stats about your games with some peculiar personalities. The bot tracks user games, analyzes and comments your CS2 and LoL matches, BF6 stats, generate podcasts and offers custom profile features.
 
 ## Table of Contents
 - [What can PerVerBot do?](#what-can-perverbot-do)
