@@ -31,20 +31,51 @@ Welcome to PerVerBot! A gaming Discord bot that uses Google Gemini to generate s
 - `/help`: Shows a list of available commands.
 - `/profile`: Create and manage your user profile. A profile is necessary to use features like CS2 and League of Legends match analysis. 
 
-<img width="503" height="692" alt="Profile command example" src="https://github.com/user-attachments/assets/5d2aa1d7-149f-484f-a89b-93c22392bfe8">
+<img width="575" height="314" alt="image" src="https://github.com/user-attachments/assets/93fa71a5-f647-48a9-a121-e823fec371fc" />
+
 
 - `@PerVerBot <message>`: Chat directly with the bot. Ask it anything!
 - `/cs2analysis`: Trigger CS2 analysis view for your recent matches (requires CS2 profile setup).
 
 ### Admin Commands
 - `/config`: (For server admins) Configure bot settings for the server.
+<img width="575" height="200" alt="image" src="https://github.com/user-attachments/assets/55c6fb1b-004e-4ded-bf07-6db3b501dd3d" />
+### Notification
+<img width="626" height="279" alt="image" src="https://github.com/user-attachments/assets/b762a193-f005-4cd3-bc91-9ebfb48ba726" />
+**Game Notification:** user's games activity tracking. Everytime a server's user starts or stops a game, perverbot reacts with a comment. **Disabled by default**. Can be spammy, especially on populated servers.
+**Game related notifications (Cs2, Lol, Bf6)**: in this channel you will receive analysis request and game comments. You can disable this kind of notification in the dropdown menu.
+**Update channel:** in this channel you will receive Perberbot App updates notes.
+**Weclome:** when a new user enter your server, Perverbot greets him in the selected channel. You can disable it in the dropdown menu.     
 
-<img width="700" height="178" alt="Config command example" src="https://github.com/user-attachments/assets/ba2d2d22-332e-47fe-8476-2e0dfdadb7c8">
+### Personality  
+You can set Perverbot personality. This personality will be used in **EVERY** server interaction (DM interactions has his own personality)
+<img width="630" height="125" alt="image" src="https://github.com/user-attachments/assets/4f4326df-871c-49ce-8f80-1e453eff676c" />
+
+### Podcast config
+You can change the default podcast voices. You can find available voices here: 
+<img width="1062" height="539" alt="image" src="https://github.com/user-attachments/assets/2e7d2b00-5e77-4235-ac15-7924d173c334" />
+
+### Clear History and Clear Stats History
+You can delete the server chat context (for normal interactions and stats interactions). When you do this, the next message will be the first interaction with the bot. Use this when you face strange behaviour, repetitive answers or if you change personality.
 
 ## Profile Setup
 
-### CS2 Profile
-To set up your CS2 profile, you need three pieces of information:
+Here you can set your profile:
+### Description
+You can write a brief description of yourself. This is what Perverbot knows about you, he will use it to interact with you.
+
+### Personality
+You can set Perverbot personality. This personality ONLY in DM messages with the bot, for server related interaction the personality is set by admins
+
+### Language
+You can set the language with Perverbot speaks. This language will be used ONLY in DM message, for server related interaction the language is set by admins
+
+### Game related settings:
+- **Steam & CS2:**
+To let Perverbot analyze your CS2 games, you need to set up steam and cs2 settings:
+
+<img width="482" height="605" alt="image" src="https://github.com/user-attachments/assets/86ad8a4e-9687-4be8-b6db-2f796a666dc3" />
+
 
 1. **SteamID**: Copy the numbers after `profiles/` from your Steam profile URL
    - Example: `https://steamcommunity.com/profiles/123456789` → Use `123456789`
@@ -60,22 +91,22 @@ To set up your CS2 profile, you need three pieces of information:
 
 <img width="515" height="133" alt="CS2 share code format" src="https://github.com/user-attachments/assets/29239bf0-266b-4e0e-b661-0a3ec1984b3d">
 
-### LoL Profile
+**Riot & Lol:**
 For League of Legends, you need:
 - **Riot ID**: Your in-game username
 - **Region**: Your server region
 
-<img width="501" height="517" alt="LoL profile setup example" src="https://github.com/user-attachments/assets/83a5ba4c-f7ed-4374-ae9b-55b9d3d45139">
+<img width="478" height="395" alt="image" src="https://github.com/user-attachments/assets/fe2cc123-bca6-4c60-9aea-2f326c49671c" />
 
-## Admin Configuration
+**Bf6**:
+For Bf6 you need just your EA Id:
+<img width="475" height="311" alt="image" src="https://github.com/user-attachments/assets/b4c8a390-0fc3-46ab-a150-fb2aa22cbbf9" />
 
-The `/config` command allows server admins to configure:
+### Clear DM History
+You can delete your DM chat history with perverbot. When you do this, the next message will be the first interaction that the bot has knowledge with him. Use this when you face strange behaviour, repetitive answers or if you change personality.
 
-- **Custom API Keys**: Set personal API keys for Gemini and TTS
-- **Notifications**: Enable/disable notifications and set up channels
-- **Personality**: Choose the bot's personality
-- **Podcast Config**: Select voices for the podcast from [Google AI Studio](https://aistudio.google.com/generate-speech?hl=it&_gl=1*1hb5yj8*_ga*ODcwNzAwODQzLjE3NDUwMTQ2OTc.*_ga_P1DBVKWT6V*czE3NTY3NTgyNjgkbzU0JGcwJHQxNzU2NzU4Mjc0JGo1NCRsMCRoMTc1MDgxMDA2NQ..)
-- **Admin Tools**: Manage user profiles, clear chat history, change language and word limits
+
+### Delete profile
 
 ## Privacy
 For more information, please read our [Privacy Policy](PRIVACY_POLICY_EN.md) and [Terms of Service](TERMS_OF_SERVICE_EN.md).
