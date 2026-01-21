@@ -28,7 +28,7 @@ Welcome to PerVerBot! A gaming Discord bot that uses Google Gemini to generate s
 ## Commands
 
 ### General Commands
-- `/help`: Shows a list of available commands.
+-  `/help`: Shows a list of available commands.
 - `/profile`: Create and manage your user profile. A profile is necessary to use features like CS2 and League of Legends match analysis. 
 
 <img width="575" height="314" alt="image" src="https://github.com/user-attachments/assets/93fa71a5-f647-48a9-a121-e823fec371fc" />
@@ -36,7 +36,10 @@ Welcome to PerVerBot! A gaming Discord bot that uses Google Gemini to generate s
 
 - `@PerVerBot <message>`: Chat directly with the bot. Ask it anything!
 - `/cs2analysis`: Trigger CS2 analysis view for your recent matches (requires CS2 profile setup).
-
+- `/lolanalysis`: Trigger LOL match view for your recent matches (requires LOL profile setup).
+- `/Bf6_stats`: Trigger BF6 stats embed with perverbot comment
+- `/historical_report`: generate a CS2 stats based report of a choosen period
+- 
 ### Admin Commands
 - `/config`: (For server admins) Configure bot settings for the server.
 - 
@@ -59,6 +62,15 @@ You can set Perverbot personality. This personality will be used in **EVERY** se
 You can change the default podcast voices. You can find available voices here: 
 
 <img width="1062" height="539" alt="image" src="https://github.com/user-attachments/assets/2e7d2b00-5e77-4235-ac15-7924d173c334" />
+
+### Language
+You can set Perverbot language
+
+### Word Limits
+You can set word limits for Perverbot answers
+
+### Current Status
+Server current config
 
 ### Clear History and Clear Stats History
 You can delete the server chat context (for normal interactions and stats interactions). When you do this, the next message will be the first interaction with the bot. Use this when you face strange behaviour, repetitive answers or if you change personality.
