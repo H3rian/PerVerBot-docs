@@ -39,9 +39,12 @@ Welcome to PerVerBot! A gaming Discord bot that uses Google Gemini to generate s
 
 ### Admin Commands
 - `/config`: (For server admins) Configure bot settings for the server.
+- 
 <img width="575" height="200" alt="image" src="https://github.com/user-attachments/assets/55c6fb1b-004e-4ded-bf07-6db3b501dd3d" />
+
 ### Notification
 <img width="626" height="279" alt="image" src="https://github.com/user-attachments/assets/b762a193-f005-4cd3-bc91-9ebfb48ba726" />
+
 **Game Notification:** user's games activity tracking. Everytime a server's user starts or stops a game, perverbot reacts with a comment. **Disabled by default**. Can be spammy, especially on populated servers.
 **Game related notifications (Cs2, Lol, Bf6)**: in this channel you will receive analysis request and game comments. You can disable this kind of notification in the dropdown menu.
 **Update channel:** in this channel you will receive Perberbot App updates notes.
@@ -49,10 +52,12 @@ Welcome to PerVerBot! A gaming Discord bot that uses Google Gemini to generate s
 
 ### Personality  
 You can set Perverbot personality. This personality will be used in **EVERY** server interaction (DM interactions has his own personality)
+
 <img width="630" height="125" alt="image" src="https://github.com/user-attachments/assets/4f4326df-871c-49ce-8f80-1e453eff676c" />
 
 ### Podcast config
 You can change the default podcast voices. You can find available voices here: 
+
 <img width="1062" height="539" alt="image" src="https://github.com/user-attachments/assets/2e7d2b00-5e77-4235-ac15-7924d173c334" />
 
 ### Clear History and Clear Stats History
@@ -70,7 +75,7 @@ You can set Perverbot personality. This personality ONLY in DM messages with the
 ### Language
 You can set the language with Perverbot speaks. This language will be used ONLY in DM message, for server related interaction the language is set by admins
 
-### Game related settings:
+### Game related settings
 - **Steam & CS2:**
 To let Perverbot analyze your CS2 games, you need to set up steam and cs2 settings:
 
