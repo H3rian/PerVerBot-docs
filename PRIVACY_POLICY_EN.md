@@ -19,7 +19,7 @@ We **only** collect data that the user voluntarily decides to provide.
 
 ## 3. How We Use Data
 The data provided is used exclusively to deliver the requested features.
-- **Messages**: We do **not** store your message history in our database. We retrieve a limited number of recent messages directly from Discord via API when needed for context and process them transitorily.
+- **Messages**: We do **not** store your message history in our database. We retrieve a limited number of recent messages directly from Discord via API when needed for context and process them transitorily (only the last 10 messages you sent to the bot). Deleted discord messages are cannot be retrieved.
 - **Replay Files**: Demos and replays are processed locally on our server and are deleted shortly after data extraction.
 - **Other Data**: Stored only for the time strictly necessary to complete the operation and can be removed at any time via bot commands (e.g., `/profile`) or upon request.
 
